@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  android:background="@color/white">
+	<LinearLayout android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:orientation="vertical"
+		android:layout_marginTop="10dip"
+		android:layout_alignParentTop="true"
+		android:layout_above="@+id/layout_buttom"
+		android:paddingLeft="10dip"
+		android:paddingRight="10dip">
+		<TextView android:layout_alignParentLeft="true"
+			android:layout_height="wrap_content" android:id="@+id/textView1"
+			android:text="你的SIM卡序列号为：" android:layout_width="wrap_content"
+			android:textSize="18sp"
+			android:textStyle="bold"
+			android:textColor="@color/black"></TextView>
+		<TextView android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:id="@+id/tv_sim"
+			android:textSize="18sp"
+			android:textStyle="bold"
+			android:textColor="@color/red"
+			android:text="XXX"/>
+		<TextView android:layout_alignParentLeft="true"
+			android:layout_height="wrap_content" android:id="@+id/textView2"
+			android:text="你的手机号码：" android:layout_width="wrap_content"
+			android:textSize="18sp"
+			android:textStyle="bold"
+			android:textColor="@color/black"></TextView>
+		<TextView android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:id="@+id/tv_phone"
+			android:textSize="18sp"
+			android:textStyle="bold"
+			android:textColor="@color/red"
+			android:text="XXX"/>
+		<EditText android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:id="@+id/et_phone"
+			android:textColor="@color/red"
+			android:hint="请输入你的电话号码"
+			android:visibility="gone"/>
+			
+		<TextView android:layout_alignParentLeft="true"
+			android:layout_height="wrap_content" android:id="@+id/textView3"
+			android:text="请输入预备的电话号码：" android:layout_width="wrap_content"
+			android:textSize="18sp"
+			android:textStyle="bold"
+			android:textColor="@color/black"></TextView>
+		<EditText android:layout_alignParentLeft="true"
+			android:layout_height="wrap_content" android:id="@+id/edittext"
+			android:layout_width="fill_parent"></EditText>
+		
+		<TextView android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:id="@+id/et_userid"
+			android:textSize="18sp"
+			android:textStyle="bold"
+			android:text="当你的sim卡序列号发生改变的时候，系统会自动发送一条信息到你预备的手机中去。"
+			android:layout_marginTop="20dip"/>
+		</LinearLayout>
+	<RelativeLayout android:layout_height="wrap_content" 
+		android:layout_width="fill_parent"
+		android:layout_alignParentBottom="true"
+        android:background="@drawable/title_bg">
+		<Button android:id="@+id/btn_comp" 
+			android:layout_height="wrap_content" 
+			android:layout_width="150dip"
+			android:text="完成并启动"
+			android:layout_alignParentRight="true"
+			android:layout_centerVertical="true"
+			android:background="@drawable/grey_button"/>
+		</RelativeLayout>
+</RelativeLayout>

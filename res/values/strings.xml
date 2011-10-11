@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, TracingPhoneActivity!</string>
+    <string name="app_name">Lock</string>
+    <string name="main_tip">请确认电脑是否与电脑正确的连接？</string>
+    <string name="menu_about">关于</string>
+    <string name="menu_setting">设置</string>
+    <string name="password_uncorrect">密码不正确， 请重新输入！</string>
+    <string name="about_tip">Made by Kris.lee</string>
+    <string name="about_email_tip">kris1987@qq.com</string>
+    
+    <string name="can_not_read">不能读取</string>
+    
+    
+    <string name="dialog_ok">OK</string>
+ 	<string name="dialog_cancel">Cancel</string>
+ 	<string name="dialog_enter_password_title">Enter password</string>
+ 	<string name="dialog_enter_password_content">Please input the password:</string>
+</resources>

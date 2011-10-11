@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<style name="translucent">
+		<item name="android:windowBackground">@color/transparent_background</item>
+		<item name="android:windowIsTranslucent">true</item>
+		<item name="android:windowAnimationStyle">@android:style/Animation.Translucent</item>
+	</style>
+	<!-- <style name="mainTheme" parent="android:Theme">
+		<item name="android:windowNoTitle">true</item> 
+		<item name="android:windowContentOverlay">@null</item> 
+		<item name="android:windowBackground">@color/white</item>
+	</style> -->
+	<style name="CustomWindowTitleBackground">
+       <item name="android:background">@color/green</item>
+	</style>
+    <style name="mainTheme" parent="android:Theme">
+		<item name="android:windowTitleSize">40dip</item> 
+		<item name="android:windowTitleBackgroundStyle">@style/CustomWindowTitleBackground</item>
+	</style>
+    
+    <!-- 字体阴影 -->
+    <style name="whiteTextShadowApparence">
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:shadowColor">#000000</item>
+        <item name="android:shadowDx">0</item>
+        <item name="android:shadowDy">-0.5</item>
+        <item name="android:shadowRadius">0.5</item>
+    </style>
+</resources>
