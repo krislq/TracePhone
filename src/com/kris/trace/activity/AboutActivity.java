@@ -1,4 +1,7 @@
-package com.kris.trace;
+package com.kris.trace.activity;
+
+import com.kris.trace.R;
+import com.kris.trace.R.layout;
 
 import android.app.Activity;
 import android.os.Bundle;

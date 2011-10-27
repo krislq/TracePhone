@@ -1,4 +1,4 @@
-package com.kris.trace;
+package com.kris.trace.activity;
 
 import android.app.Activity;
 import android.app.AlertDialog;
@@ -18,6 +18,11 @@ import android.view.Window;
 import android.widget.EditText;
 import android.widget.Toast;
 
+import com.kris.trace.R;
+import com.kris.trace.R.id;
+import com.kris.trace.R.layout;
+import com.kris.trace.R.menu;
+import com.kris.trace.R.string;
 import com.kris.trace.manager.TraceManager;
 import com.kris.trace.utils.L;
 /**

@@ -1,5 +1,8 @@
-package com.kris.trace;
+package com.kris.trace.activity;
 
+import com.kris.trace.R;
+import com.kris.trace.R.id;
+import com.kris.trace.R.layout;
 import com.kris.trace.manager.TraceManager;
 import com.kris.trace.utils.Utils;
 
